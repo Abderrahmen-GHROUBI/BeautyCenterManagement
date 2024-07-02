@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="centre_de_beaute" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="src/;include/src/" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/centre_de_beaute" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/centre_de_beaute" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/Employer.h" />
+		<Unit filename="include/Facial_service.h" />
+		<Unit filename="include/Map.h" />
+		<Unit filename="include/Rendez_vous.h" />
+		<Unit filename="include/cente_de_beaute.h" />
+		<Unit filename="include/client.h" />
+		<Unit filename="include/hair_cut_femme.h" />
+		<Unit filename="include/hair_cut_homme.h" />
+		<Unit filename="include/hair_cut_service.h" />
+		<Unit filename="include/personne.h" />
+		<Unit filename="include/service.h" />
+		<Unit filename="include/tableau.h" />
+		<Unit filename="main.cpp">
+			<Option virtualFolder="include/src/" />
+		</Unit>
+		<Unit filename="src/Employer.cpp" />
+		<Unit filename="src/Facial_service.cpp" />
+		<Unit filename="src/Map.cpp" />
+		<Unit filename="src/Rendez_vous.cpp" />
+		<Unit filename="src/cente_de_beaute.cpp" />
+		<Unit filename="src/client.cpp" />
+		<Unit filename="src/hair_cut_femme.cpp" />
+		<Unit filename="src/hair_cut_homme.cpp" />
+		<Unit filename="src/hair_cut_service.cpp" />
+		<Unit filename="src/personne.cpp" />
+		<Unit filename="src/service.cpp" />
+		<Unit filename="src/tableau.cpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
